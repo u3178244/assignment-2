@@ -1,0 +1,69 @@
+/* this is a style sheet */
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    background: #019ad2;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 125%;
+    color:black;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+a:hover{
+    color: white;
+}
+
+.img_with_cap{
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img_with_cap p{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.img_with_cap img{
+    width: 100%;
+}
+.p1{
+    color:black;
+}
+
+em{
+    font-style: italic;
+}
+
+h1{
+    width:100%;
+    font-weight: bold;
+    font-size: 400%;
+    color: white;
+    margin: 20px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+h3{
+    color: white;
+    font-family: Helvetica;
+}
